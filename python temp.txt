@@ -1,5 +1,5 @@
 temp=int(input("Enter the temperature value\n"))
-temp_unit=input("Enter the unit of the input value: C for celcius and F for farenheit\n")
+temp_unit=input("Enter the unit of the input value: C for celsius and F for fahrenheit\n")
 if temp_unit=='C':
     value=((9/5)*temp)+32
     print(value)
@@ -7,4 +7,4 @@ elif temp_unit=='F':
     value=(temp-32)*(5/9)
     print(value )
 else:
-    print("Invalid unit. Please choose C for celcius or F for Farenheit\n")
+    print("Invalid unit. Please choose C for celsius or F for Fahrenheit\n")
